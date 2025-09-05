@@ -147,7 +147,7 @@ with st.container(border=True):
                 available_images.insert(0, default_image)
 
             image_name = st.selectbox(
-                "Hummingbot Image",
+                "MemeDD Image",
                 options=available_images,
                 index=0,
                 key="image_select"
@@ -155,7 +155,7 @@ with st.container(border=True):
         except Exception as e:
             st.error(f"Failed to fetch available images: {e}")
             image_name = st.text_input(
-                "Hummingbot Image",
+                "MemeDD Image",
                 value="hummingbot/hummingbot:latest",
                 key="image_input"
             )
