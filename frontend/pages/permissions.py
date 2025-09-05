@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def main_page():
-    return [st.Page("frontend/pages/landing.py", title="Hummingbot Dashboard", icon="📊", url_path="landing")]
+    return [st.Page("frontend/pages/landing.py", title="MemeDD Dashboard", icon="📊", url_path="landing")]
 
 
 def public_pages():

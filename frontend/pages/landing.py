@@ -63,9 +63,9 @@ st.markdown("""
 # Hero Section
 st.markdown("""
 <div style="text-align: center; padding: 2rem 0;">
-    <h1 style="font-size: 3rem; margin-bottom: 0.5rem;">🤖 Hummingbot Dashboard</h1>
+    <h1 style="font-size: 3rem; margin-bottom: 0.5rem;"> MemeDD Trading Dashboard</h1>
     <p style="font-size: 1.2rem; color: #888; margin-bottom: 2rem;">
-        Your Command Center for Algorithmic Trading Excellence
+       Your Headquarters for Smarter Trading Strategies
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -90,7 +90,7 @@ def generate_sample_data():
     })
 
 # Quick Stats Dashboard
-st.markdown("## 📊 Live Dashboard Overview")
+st.markdown("## ₿ Live Dashboard Overview")
 
 # Mock data warning
 st.warning("""
@@ -103,7 +103,7 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.markdown("""
     <div class="metric-card">
-        <h3>🔄 Active Bots</h3>
+        <h3>⚡ Active Bots</h3>
         <div class="stat-number pulse">3</div>
         <p>Currently Trading</p>
     </div>
@@ -112,7 +112,7 @@ with col1:
 with col2:
     st.markdown("""
     <div class="metric-card">
-        <h3>💰 Total Portfolio</h3>
+        <h3>💎 Total Portfolio</h3>
         <div class="stat-number">$12,847</div>
         <p style="color: #4CAF50;">+2.3% Today</p>
     </div>
@@ -121,7 +121,7 @@ with col2:
 with col3:
     st.markdown("""
     <div class="metric-card">
-        <h3>📈 Win Rate</h3>
+        <h3>🚀 Win Rate</h3>
         <div class="stat-number">74.2%</div>
         <p>Last 30 Days</p>
     </div>
@@ -142,7 +142,7 @@ st.divider()
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.markdown("### 📈 Portfolio Performance (30 Days)")
+    st.markdown("### 💰 Portfolio Performance (30 Days)")
     
     # Generate and display sample performance chart
     df = generate_sample_data()
@@ -170,7 +170,7 @@ with col1:
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    st.markdown("### 🎯 Strategy Status")
+    st.markdown("### 🔥 Strategy Status")
     
     strategies = [
         {"name": "Market Making", "status": "active", "pnl": "+$342"},
@@ -200,7 +200,7 @@ with col2:
 st.divider()
 
 # Feature Showcase
-st.markdown("## 🚀 Platform Features")
+st.markdown("## 🔗 Platform Features")
 
 col1, col2, col3 = st.columns(3)
 
@@ -208,13 +208,13 @@ with col1:
     st.markdown("""
     <div class="feature-card">
         <div style="text-align: center; margin-bottom: 1rem;">
-            <div style="font-size: 3rem;">🎯</div>
+            <div style="font-size: 3rem;">⚡</div>
             <h3>Strategy Development</h3>
         </div>
         <ul style="list-style: none; padding: 0;">
-            <li>✨ Visual Strategy Builder</li>
-            <li>🔧 Advanced Configuration</li>
-            <li>📝 Custom Parameters</li>
+            <li>🔗 Visual Strategy Builder</li>
+            <li>⚙️ Advanced Configuration</li>
+            <li>🎛️ Custom Parameters</li>
             <li>🧪 Testing Environment</li>
         </ul>
     </div>
@@ -224,14 +224,14 @@ with col2:
     st.markdown("""
     <div class="feature-card">
         <div style="text-align: center; margin-bottom: 1rem;">
-            <div style="font-size: 3rem;">📊</div>
+            <div style="font-size: 3rem;">📈</div>
             <h3>Analytics & Insights</h3>
         </div>
         <ul style="list-style: none; padding: 0;">
-            <li>📈 Real-time Performance</li>
+            <li>⚡ Real-time Performance</li>
             <li>🔍 Advanced Backtesting</li>
             <li>📋 Detailed Reports</li>
-            <li>🎨 Interactive Charts</li>
+            <li>📊 Interactive Charts</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
@@ -247,7 +247,7 @@ with col3:
             <li>🤖 Automated Execution</li>
             <li>📡 Real-time Monitoring</li>
             <li>🛡️ Risk Management</li>
-            <li>🔔 Smart Alerts</li>
+            <li>🚨 Smart Alerts</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
@@ -271,11 +271,11 @@ with col2:
         st.error("🚫 Navigation unavailable - This is a mocked landing page for demonstration purposes.")
 
 with col3:
-    if st.button("🔍 Backtesting", use_container_width=True):
+    if st.button("🔬 Backtesting", use_container_width=True):
         st.error("🚫 Navigation unavailable - This is a mocked landing page for demonstration purposes.")
 
 with col4:
-    if st.button("🗃️ Archived Bots", use_container_width=True):
+    if st.button("🗂️ Archived Bots", use_container_width=True):
         st.error("🚫 Navigation unavailable - This is a mocked landing page for demonstration purposes.")
 
 st.divider()
@@ -283,46 +283,46 @@ st.divider()
 # Community & Resources
 col1, col2 = st.columns([2, 1])
 
-with col1:
-    st.markdown("### 🎬 Learn & Explore")
+# with col1:
+#     st.markdown("### 🎬 Learn & Explore")
     
-    st.video("https://youtu.be/7eHiMPRBQLQ?si=PAvCq0D5QDZz1h1D")
+#     st.video("https://youtu.be/7eHiMPRBQLQ?si=PAvCq0D5QDZz1h1D")
 
-with col2:
-    st.markdown("### 💬 Join Our Community")
+# with col2:
+#     st.markdown("### 💬 Join Our Community")
     
-    st.markdown("""
-    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                padding: 1.5rem; border-radius: 15px; color: white;">
-        <h4>🌟 Connect with Traders</h4>
-        <p>Join thousands of algorithmic traders sharing strategies and insights!</p>
-        <br>
-        <a href="https://discord.gg/hummingbot" target="_blank" 
-           style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; 
-                  border-radius: 8px; text-decoration: none; color: white; font-weight: bold;">
-           💬 Join Discord
-        </a>
-        <br><br>
-        <a href="https://github.com/hummingbot/dashboard" target="_blank"
-           style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; 
-                  border-radius: 8px; text-decoration: none; color: white; font-weight: bold;">
-           🐛 Report Issues
-        </a>
-    </div>
-    """, unsafe_allow_html=True)
+#     st.markdown("""
+#     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+#                 padding: 1.5rem; border-radius: 15px; color: white;">
+#         <h4>🌟 Connect with Traders</h4>
+#         <p>Join thousands of algorithmic traders sharing strategies and insights!</p>
+#         <br>
+#         <a href="https://discord.gg/memeDD" target="_blank" 
+#            style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; 
+#                   border-radius: 8px; text-decoration: none; color: white; font-weight: bold;">
+#            💬 Join Discord
+#         </a>
+#         <br><br>
+#         <a href="https://github.com/memeDD/dashboard" target="_blank"
+#            style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; 
+#                   border-radius: 8px; text-decoration: none; color: white; font-weight: bold;">
+#            🐛 Report Issues
+#         </a>
+#     </div>
+#     """, unsafe_allow_html=True)
 
 # Footer stats
 st.markdown("---")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.metric("🌍 Global Users", "10,000+")
+    st.metric("🌐 Global Traders", "10,000+")
 
 with col2:
-    st.metric("💱 Exchanges", "20+")
+    st.metric("🔗 Exchanges", "20+")
 
 with col3:
-    st.metric("🔄 Daily Volume", "$2.5M+")
+    st.metric("💰 Daily Volume", "$2.5M+")
 
 with col4:
     st.metric("⭐ GitHub Stars", "7,800+")
